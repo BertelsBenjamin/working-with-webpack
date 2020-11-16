@@ -1,0 +1,52 @@
+{
+  "name": "working-with-webpack",
+  "version": "1.0.0",
+  "description": "udemy complete react course module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --port 9000",
+    "build:prod": "webpack --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BertelsBenjamin/working-with-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "react"
+  ],
+  "author": "bertels123@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BertelsBenjamin/working-with-webpack/issues"
+  },
+  "homepage": "https://github.com/BertelsBenjamin/working-with-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@babel/preset-stage-2": "^7.8.3",
+    "autoprefixer": "^10.0.2",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "postcss-loader": "^4.0.4",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "browserslist": "> 1%, last 2 versions",
+  "dependencies": {
+    "core-js": "^3.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "regenerator-runtime": "^0.13.7",
+    "webpack-cli": "^4.2.0"
+  }
+}
